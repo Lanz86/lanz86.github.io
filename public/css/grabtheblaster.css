@@ -1,0 +1,145 @@
+html {
+	font-family: "PT Serif", Georgia, "Times New Roman", serif;
+	font-size: 16px;
+}
+
+a {
+	color: #1B6AA0;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+p img {
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+pre {
+	display: block;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	font-size: 0.8rem;
+	line-height: 1.4;
+	background-color: #f9f9f9;
+	overflow-x: auto;
+	white-space: pre;
+	word-wrap: normal;
+}
+
+pre code {
+	padding-right: 1rem;
+}
+
+/* All of this for my pic, I'm a narcisist */
+
+.masthead-title {
+	width: 100%;
+}
+
+.masthead img {
+	display: block;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+	height: 5rem;
+	border-radius: 2.5rem;
+	border: 2px solid #000000;
+}
+
+.masthead-title a {
+	display: block;
+	text-align: center;
+}
+
+.masthead-title small {
+  font-size: 65%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0;
+  display: block;
+  text-align: center;
+}
+
+.post-title-link {
+        font-size: 1.1rem;
+	text-align: left;
+}
+
+.post-title-link a:hover {
+	text-decoration: none;
+}
+
+.post-date {
+	text-align: center;
+}
+
+.footer {
+	margin-top: 3rem;
+	font-size: 0.8rem;
+}
+
+.social-icons {
+	text-align: center;
+	font-size: 2rem;
+	margin-top: -3.8rem;
+	margin-bottom: 1rem;
+	margin-left: 0.8rem;
+	letter-spacing: 0.8rem;
+}
+
+.social-icons a {
+	color: #303030;
+}
+
+.social-section {
+	margin-bottom: 1rem;
+	margin-top: -1rem;
+}
+
+.twitter-share-button {
+	vertical-align: text-bottom !important;
+	margin-left: 2rem;
+}
+
+@media only screen and (min-width : 768px) {
+	/* Some responsive stuff :-))) */
+
+	html {
+		font-size: 20px; /* Raffaella this is your fault :-D */
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		text-align: left;
+	}
+
+	.masthead-title {
+		width: auto;
+	}
+
+	.masthead-title a {
+		display: inline;
+		text-align: left;
+	}
+
+	.masthead img {
+		display: inline;
+		vertical-align: middle;
+		height: 3rem;
+		border-radius: 1.5rem;
+	}
+
+	.masthead-title small {
+		display: inline;
+		text-align: left;
+	}
+
+	.post-date {
+		text-align: left;
+	}
+}
+
