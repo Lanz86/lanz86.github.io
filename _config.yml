@@ -1,4 +1,26 @@
-markdown: kramdown
-url: http://www.antoniolanzolla.com
-name: AntonioLanzolla.com
-description: Il blog di Antonio Lanzolla
+# Dependencies
+markdown:         kramdown
+
+# Setup
+title:            Antonio Lanzolla
+tagline:          Il blog di Antonio Lanzolla
+paginate:         5
+paginate_path:    '/page/:num'
+baseurl:          '/'
+url:              'http://www.antoniolanzolla.com'
+permalink:        '/:title'
+license:
+  link:           'https://creativecommons.org/licenses/by-nc/3.0/'
+  label:          'CC BY-NC'
+author:
+  name:           Antonio Lanzolla
+  url:            http://www.antoniolanzolla.it
+  email:          antonio.lanzolla@gmail.com
+
+# Custom vars
+version:          0.0.1
+github:
+  repo:           https://github.com/lanz86/lanz86.github.io
+
+# Custom configs
+gems: [jekyll-paginate]
