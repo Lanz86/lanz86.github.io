@@ -1,22 +1,3 @@
-# Dependencies
-markdown:         redcarpet
-
-# Setup
-title:            'LanzBlog'
-tagline:          'Ci sono 10 tipi di persone al mondo: chi capisce il codice binario e chi no'
-paginate:         10
-baseurl:          '/'
-url:              'http://www.lanzblog.com'
-permalink:        '/:title'
-license:
-  link:           'https://creativecommons.org/licenses/by-nc/3.0/'
-  label:          'CC BY-NC'
-author:
-  name:           Antonio Lanzolla
-  url:            http://www.lanzblog.com
-  email:          dottorblaster@gmail.com
-
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/Lanz86/lanz86.github.io
+url: http://www.antoniolanzolla.com
+name: AntonioLanzolla.com
+description: Il blog di Antonio Lanzolla
