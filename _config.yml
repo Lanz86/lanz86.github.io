@@ -7,14 +7,14 @@ tagline:          Il blog di Antonio Lanzolla
 paginate:         5
 paginate_path:    '/page:num'
 baseurl:          '/'
-url:              'http://www.antoniolanzolla.com'
+url:              'http://lanz86.github.com'
 permalink:        '/:title'
 license:
   link:           'https://creativecommons.org/licenses/by-nc/3.0/'
   label:          'CC BY-NC'
 author:
   name:           Antonio Lanzolla
-  url:            http://www.antoniolanzolla.com
+  url:            http://lanz86.github.com
   email:          antonio.lanzolla@gmail.com
 
 # Custom vars
